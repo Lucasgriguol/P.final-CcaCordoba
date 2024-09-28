@@ -1,0 +1,48 @@
+/*Devocionales*/
+.devocionales {
+    text-align: center;
+    .video {
+        height: 358px;
+        width: 738px;
+        margin: 20px;
+        animation: scaleUp 5s infinite;
+    }
+
+    .reflexion {
+        border: 5.8px solid #107acc;
+        padding: 30px;
+        margin: 25px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    @media(max-width: $responsive) {
+        .video {
+            height: 250px;
+            width: 350px;
+            margin: 20px;
+        }
+
+        .reflexion {
+            border: 5px solid #107acc;
+            padding: 25px;
+            margin: 15px;
+        }
+        h2{
+            font-size: 22px;
+        }
+    }
+}
+@keyframes scaleUp {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

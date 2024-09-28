@@ -1,0 +1,16 @@
+/*Anuncios*/
+.anuncios {
+    background-color: map-get($map: $colores, $key: primario);
+    border: 1px solid map-get($map: $colores, $key: terciario);
+    border-radius: 67px;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 10.5);
+    h2{
+        font-size: 37px;
+    }
+    .checkbox {
+        margin-right: 10px;
+    }
+}

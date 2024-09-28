@@ -1,0 +1,38 @@
+/*Información*/
+.informacion {
+    text-align: center;
+    justify-content: center;
+    .listainfo{
+        list-style-type: circle;
+    }
+    .contenedorinfo{
+        display: flex;
+        align-items: center;
+    }
+    .imageninfo{
+        height: 390px;
+        margin: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 10.5);
+        margin-right: -70px;
+    }
+    .textoinfo{
+        flex: 1;
+        text-align: center;
+    }
+    @media(max-width: 1080px){
+        .imageninfo{
+            height: 230px;
+            margin-right: 0;
+        }
+        .contenedorinfo{
+            flex-direction: column; 
+            align-items: center;
+        }
+        .gmail{
+            font-size: 15px;
+        }
+    }
+}
+.espacio2{
+    padding: 20px;
+}

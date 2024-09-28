@@ -1,0 +1,36 @@
+/*Areas*/
+.areas {
+    font-size: 40px;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin: 25px;
+}
+
+.tarjeta {
+    border: 2px solid map-get($map: $colores, $key: primario);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 10.5);
+    max-width: 420px;
+    flex: 1 1 calc(33.333% - 50px);
+    margin: 0;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+    }
+
+    .contenido {
+        padding: 18px;
+    }
+}
+
+@media (max-width: $responsive) {
+    .tarjeta {
+        flex: 1 1 100%;
+    }
+}
