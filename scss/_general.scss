@@ -1,6 +1,6 @@
 /*Fondo*/
 body {
-    background-image: url(../Recursos/fondooo.jpeg);
+    background-image: url(../recursos/fondooo.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -74,7 +74,7 @@ a:hover {
     width: 55px;
     border-radius: 50px;
     border: 1px solid map-get($map: $colores, $key: primario);
-    background-image: url(../Recursos/maps.png);
+    background-image: url(../recursos/maps.png);
     background-position: center;
     background-size: 40%;
     background-repeat: no-repeat;
