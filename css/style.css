@@ -381,9 +381,9 @@ li {
 }
 @media (max-width: 830px) {
   .devocionales .video {
-    height: 250px;
-    width: 350px;
-    margin: 20px;
+    height: 220px;
+    width: 285px;
+    margin: 15px;
   }
   .devocionales .reflexion {
     border: 5px solid #107acc;
